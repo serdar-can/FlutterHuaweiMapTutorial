@@ -1,16 +1,14 @@
 # hms_map_demo
 
-A new Flutter project.
+An example project that shows how to use Huawei Map Kit Flutter Plugin. 
 
-## Getting Started
+Notes before building
+I removed the `agconnect-services.json` and keystore files for obvious reasons. Add your versions of these files (you can refer to the medium post) and then you can run the app by following commands:
 
-This project is a starting point for a Flutter application.
+Get the dependencies:
 
-A few resources to get you started if this is your first Flutter project:
+`flutter pub get`
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Build&Run the application
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+`flutter run`
